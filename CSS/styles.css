@@ -1,0 +1,244 @@
+body {
+    width: 1920px;
+    height: 9097px;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../FONTS/TTNorms-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.header-background {
+    height: 975px;
+    background-image: url('../IMG/header-background.png');
+}
+
+.header-background-dim {
+    height: 975px;
+    background-image: url('../IMG/header-background-dim.png');
+}
+
+.Main-menu {
+    display: flex;
+}
+
+.Menu {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 707px;
+    top: 50px;
+    line-height: 1;
+    font-family: 'Neue Machina';
+    font-size: 24px;
+    display: flex;
+    gap: 120px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.line-1 {
+    background-color: white;
+    border: none;
+    height: 119px;
+    width: 1px;
+    position: absolute;
+    left: 1399px;
+    top: 0px;
+}
+
+.Language {
+    height: 23px;
+    width: 62px;
+    position: absolute;
+    display: flex;
+    left: 1479px;
+    top: 48px;
+    gap: 8px;
+}
+
+.en {
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 1;
+    color: white;
+    font-family: 'Neue Machina';
+    font-size: 24px;
+    transform: translateY(-3px);
+}
+
+.language-arrow-down {
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('../IMG/arrow-square-down.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20px 20px;
+}
+
+.Contact {
+    height: 59px;
+    width: 254px;
+    position: absolute;
+    background-color: #2E2BD0;
+    left: 1636px;
+    top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.con {
+    height: 19px;
+    width: 129px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    line-height: 1;
+    color: white;
+    font-family: 'Neue Machina';
+    font-size: 20px;
+    transform: translateY(-2px);
+}
+
+.contact-button {
+    height: 24px;
+    width: 24px;
+    background-image: url('../IMG/contact-button.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 189px;
+    top: 17px;
+}
+
+.line-2 {
+    background-color: white;
+    border: none;
+    height: 1px;
+    width: 1860px;
+    position: absolute;
+    left: 30px;
+    top: 119px;
+}
+
+.Logo {
+    height: 63px;
+    width: 204px;
+    position: relative;
+    left: 30px;
+    top: 28px;
+}
+
+.Logo-vector-2 {
+    height: 15.25px;
+    width: 14.7px;
+    background-image: url('../IMG/Vector-2.svg');
+    position: absolute;
+}
+
+.Logo-vector-1 {
+    height: 42.36px;
+    width: 57.77px;
+    background-image: url('../IMG/Vector-1.svg');
+    position: absolute;
+    top: 18.64px;
+    left: 1.71px;
+}
+
+.Logo-header-text {
+    height: 48px;
+    width: 137px;
+    line-height: 1;
+    font-family: 'TT Norms';
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 67px;
+    top: 15px;
+}
+
+.Title {
+    height: 130px;
+    width: 892px;
+    position: absolute;
+    left: 150px;
+    top: 415px;
+}
+
+.title-header {
+    line-height: 130%;
+    color: white;
+    font-family: 'Neue Machina';
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.title-background {
+    height: 65px;
+    width: 876px;
+    position: absolute;
+    background-color:#2E2BD0;
+    border: none;
+    left: 150px;
+    top: 447px;
+}
+
+.Estimate {
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    left: 150px;
+    top: 645px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.Est {
+    height: 78px;
+    width: 160px;
+    position: absolute;
+    left: 60px;
+    top: 101px;
+    line-height: 130%;
+    color: white;
+    font-family: 'Neue Machina';
+    font-size: 30px;
+    text-align: center;
+}

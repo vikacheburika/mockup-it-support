@@ -36,6 +36,12 @@ body {
   font-weight: 900;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../FONTS/Gilroy-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 .header-background {
     height: 975px;

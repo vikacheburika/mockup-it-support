@@ -216,4 +216,59 @@
     fill: var(--main-light, #9695E7);
     stroke-width: 2px;
     stroke: var(--main-white, #FFF);
+.container{
+    width: 1920px;
+    height: 971px;
+    margin-top: 250px;
+}
+
+.logo{
+    width: 436px;
+    height: 58px;
+    font-size: 60px;
+    padding: 50px;
+}
+
+#grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 20px 5px;
+}
+
+.box-{
+    width: 400px;
+   height: 78px;
+   padding: 30px;
+   margin-top: 50px;
+   font-size: 30px;
+}
+
+.box{
+   border: 3px solid #2F353F;
+   width: 540px;
+   height: 220px;
+   padding: 30px;
+   margin-top: 10px;
+   font-size: 30px;
+   border-radius: 40px;
+}
+
+.purple{
+    border: 3px solid #2F353F;
+    width: 522px;
+    height: 300px;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 40px;
+    background-color: #7876F2;
+}
+
+.circle{
+    width: 280px;
+    height: 280px;
+    background-color: #ffff;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
 }

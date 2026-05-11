@@ -6,7 +6,7 @@
     font-weight: 400;
     line-height: 150%;
     /* 48px */
-    
+
 }
 
 .touch {
@@ -18,11 +18,74 @@
     margin: 250px 30px;
     padding: 100px 120px;
 }
+
 .touch h2 {
     color: var(--main-white, #FFF);
-font-family: "Neue Machina";
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 130px */
+    font-family: "Neue Machina";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 130px */
+    width: 645px;
+}
+
+.touch input {
+    color: white;
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: none;
+    border: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.line svg {
+    width: 700px;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #FFF;
+}
+
+.aside-right p {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+}
+
+.aside-right p span {
+    color: var(--main-white, #FFF);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 220px;
+}
+.aside-right {
+    box-sizing: border-box;
+    width: 700px;
+}
+.aside-right button {
+    background: none;
+    border: none;
 }

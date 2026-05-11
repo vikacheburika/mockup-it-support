@@ -262,9 +262,10 @@
     font-size: 30px;
     border-radius: 40px;
     background-color: #7876F2;
+    color: #ffff;
 }
 
-.circle{
+button{
     width: 280px;
     height: 280px;
     background-color: #ffff;

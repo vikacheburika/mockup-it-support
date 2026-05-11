@@ -1,0 +1,182 @@
+
+body {
+    width: 1920px;
+    height: 9097px;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../FONTS/TTNorms-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../FONTS/Gilroy-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Main-menu {
+    display: flex;
+}
+
+.Menu {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 707px;
+    top: 50px;
+    line-height: 1;
+    font-size: 24px;
+    display: flex;
+    gap: 120px;
+}
+
+.Menu a {
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    white-space: nowrap;
+}
+.about{
+    font-family: "Neue Machina";
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: var(--main-blue, #2E2BD0);
+    border-radius: 10px;
+    border: 1px solid var(--main-blue, #2E2BD0);
+}
+.job{
+    font-family: "Neue Machina";
+    color: var(--main-light, #2F353F);
+}
+.services{
+    font-family: "Neue Machina";
+    color: var(--main-light, #2F353F);
+}
+.line-1 {
+    background-color: rgba(47, 53, 63, 0.50);
+    border: none;
+    height: 119px;
+    width: 1px;
+    position: absolute;
+    left: 1399px;
+    top: 0px;
+}
+
+.Language {
+    
+    height: 23px;
+    width: 62px;
+    position: absolute;
+    display: flex;
+    left: 1479px;
+    top: 48px;
+    gap: 8px;
+}
+
+.en {
+    font-family: "Neue Machina";
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 1;
+    color: var(--main-light, #2F353F);
+    font-family: 'Neue Machina';
+    font-size: 24px;
+    transform: translateY(-3px);
+}
+
+.language-arrow-down {
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('../img/black-down.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20px 20px;
+}
+
+.Contact {
+    height: 59px;
+    width: 254px;
+    position: absolute;
+    background-color: #2E2BD0;
+    left: 1636px;
+    top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.con {
+    font-family: "Neue Machina";
+    height: 19px;
+    width: 129px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    line-height: 1;
+    color: white;
+    font-family: 'Neue Machina';
+    font-size: 20px;
+    transform: translateY(-2px);
+}
+
+.contact-button {
+    height: 24px;
+    width: 24px;
+    background-image: url('../IMG/contact-button.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 189px;
+    top: 17px;
+}
+
+.line-2 {
+    background-color: rgba(47, 53, 63, 0.50);
+    border: none;
+    height: 1px;
+    width: 1860px;
+    position: absolute;
+    left: 30px;
+    top: 119px;
+}
+
+.Logo-vector-1 {
+    height: 40px;
+    width: 39px;
+    background-image: url('../img/black-vector.svg');
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    bottom: 40px;
+}

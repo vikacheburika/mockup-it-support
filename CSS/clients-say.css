@@ -1,0 +1,162 @@
+.what-clients-say {
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1656px;
+    padding: 150px;
+}
+
+.what-clients-say h2 {
+    font-family: 'Neue Machina';
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--default);
+
+}
+
+.what-clients-say-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.clientssay-box {
+    border: 1px solid var(--light-grey);
+    box-sizing: border-box;
+    height: 750px;
+    border-radius: 50px;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.clientssay-1 {
+    grid-column-start: 1;
+}
+
+.clientssay-2 {
+    grid-column-start: 2;
+}
+
+.clientssay-3 {
+    grid-column-start: 3;
+}
+
+.what-clients-say h3 {
+    color: var(--main-blue);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 198px;
+}
+
+.what-clients-say h2 {
+    margin-bottom: 100px;
+}
+
+.clientssay-name {
+    margin: 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 150%; */
+    color: var(--main-blue);
+    font-family: "Neue Machina";
+}
+
+.clientssay-desc {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.clientssay-description {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+.clietssay-nonbutton {
+    border: 1px solid var(--main-blue);
+    border-radius: 13px;
+    margin: 0;
+    margin-top: auto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--main-blue);
+    font-family: "Neue Machina";
+    height: 65px;
+    width: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clietssay-nonbutton_img {
+    filter: brightness(0) saturate(100%)
+          invert(35%) sepia(90%)
+          saturate(2500%) hue-rotate(225deg)
+          brightness(95%) contrast(95%);
+    width: 30px;
+    margin-top: 5px;
+}
+
+
+.client-pic {
+    border: 1px solid var(--main-blue);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+.what-clients-say-nav {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-page-counter {
+    color: black;
+    margin: 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: "Neue Machina";
+}
+
+.nav-arrow {
+    height: 50px;
+    width: 50px;
+    filter: brightness(0) saturate(100%)
+          invert(35%) sepia(90%)
+          saturate(2500%) hue-rotate(225deg)
+          brightness(95%) contrast(95%);
+}
+
+.nav-arrow-1 {
+    opacity: 0.4;
+    transform: rotate(90deg);
+}
+.nav-arrow-2 {
+    transform: rotate(-90deg);
+}

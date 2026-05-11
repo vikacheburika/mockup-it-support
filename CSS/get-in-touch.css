@@ -1,0 +1,28 @@
+.touch-inputs {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 48px */
+    
+}
+
+.touch {
+    background-color: red;
+    width: 1860px;
+    height: 1004px;
+    border-radius: 70px;
+    background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
+    margin: 250px 30px;
+    padding: 100px 120px;
+}
+.touch h2 {
+    color: var(--main-white, #FFF);
+font-family: "Neue Machina";
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 130px */
+}

@@ -1,0 +1,122 @@
+.goals {
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1656px;
+    padding: 150px;
+}
+
+.goals h2 {
+    font-family: 'Neue Machina';
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--default);
+
+}
+
+.goals-boxes {
+    display: grid;
+    grid-template-columns: repeat(6, 270px);
+}
+
+.goal-box {
+    border: 1px solid var(--light-grey);
+    box-sizing: border-box;
+    height: 500px;
+    border-radius: 70px;
+    padding: 50px;
+}
+
+.goal-small-first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.goal-small-second {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.goal-picture-first {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    padding: 0;
+    background: url(../IMG/goal-picture-1.jpg);
+    background-size: cover;
+}
+
+
+.goal-picture-second {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: url(../IMG/goal-picture-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.goal-semi-wide {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.goal-wide {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.goal-picture-third {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    background: url(../IMG/goal-picture-3.jpg);
+    background-size: cover;
+}
+
+.goals h3 {
+    color: var(--main-blue);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 198px;
+}
+
+.goal-title {
+    margin: 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    margin-bottom: 25px;
+}
+
+.goal-description {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 45px */
+    margin: 0;
+}
+
+.goal-descriptionv2 {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 45px */
+    margin: 0;
+}
+.goal-semi-wide, .goal-wide {
+    padding: 50px 0 0 50px;
+}
+.goals h2 {
+    margin-bottom: 100px;
+}

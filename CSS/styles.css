@@ -1,3 +1,10 @@
+:root {
+    --default: #2F353F;
+    --light-grey: #95989D;
+    --main-blue: #2E2BD0;
+}
+
+
 body {
     width: 1920px;
     height: 9097px;

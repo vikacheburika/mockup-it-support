@@ -223,53 +223,73 @@
 }
 
 .logo{
+    font-family: 'Neue Machina';
     width: 436px;
     height: 58px;
     font-size: 60px;
-    padding: 50px;
+    padding: 60px;
+    color: #2F353F;
 }
 
-#grid {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
     gap: 20px 5px;
 }
 
 .box-{
-    width: 400px;
-   height: 78px;
-   padding: 30px;
-   margin-top: 50px;
-   font-size: 30px;
+    font-family: 'Neue Machina';
+    border: 1px;
+    width: 541px;
+    height: 220px;
+    padding: 30px;
+    font-size: 26px;
+    color: #2F353F;
 }
 
 .box{
-   border: 3px solid #2F353F;
-   width: 540px;
-   height: 220px;
-   padding: 30px;
-   margin-top: 10px;
-   font-size: 30px;
-   border-radius: 40px;
+    font-family: 'Neue Machina';
+    border: 1px solid #909398;
+    width: 541px;
+    height: 220px;
+    padding: 30px;
+    font-size: 26px;
+    border-radius: 40px;
+    color: #2F353F;
+}
+
+.text_box{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    color: #2F353FB2 70%;
 }
 
 .purple{
+    font-family: 'Neue Machina';
     border: 3px solid #2F353F;
     width: 522px;
     height: 300px;
     padding: 30px;
-    margin-top: 10px;
-    font-size: 30px;
+    font-size: 26px;
     border-radius: 40px;
     background-color: #7876F2;
     color: #ffff;
+    margin: 15px;
 }
 
-button{
+.text_purple{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    color: #ffff 70%;
+}
+
+.cicle{
+    font-family: 'Neue Machina';
     width: 280px;
     height: 280px;
     background-color: #ffff;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }

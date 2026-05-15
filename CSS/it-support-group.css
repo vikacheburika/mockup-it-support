@@ -1,0 +1,126 @@
+.it-support-group {
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1656px;
+    padding: 150px;
+    margin-top: 150px;
+}
+
+.support-start-1 h2 {
+    font-family: 'Neue Machina';
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--default);
+    line-height: 1.5;
+}
+
+.support-start-2 p {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    margin-left: 743px;
+    width: 760px;
+}
+
+.support-box {
+    border: 0px solid var(--main-blue);
+    box-sizing: border-box;
+    height: 750px;
+    width: 1860px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: -120px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.33fr 0.3fr 0.6fr;
+    place-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, var(--main-blue), var(--violet-blue));
+}
+
+.support-box-date-box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    /* align-items: flex-start; */
+    width: 1590px;
+}
+
+.support-box-dates {
+    line-height: 1;
+    color: white;
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--pale-blueish);
+}
+
+.support-box-date-main {
+    color: white;
+    font-family: "Neue Machina";
+    font-size: 76px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+
+
+.support-box-sticks {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: -60px; */
+    /* margin-bottom: -60px; */
+}
+
+.support-stick {
+    width: 2px;
+    height: 110px;
+    background-color: var(--pale-blueish);
+    margin-right: 25px;
+    opacity: 0.4;
+}
+
+.support-stick-mid {
+    width: 2px;
+    height: 140px;
+    opacity: 0.8;
+}
+
+.support-stick-max {
+    background-color: white;
+    width: 3px;
+    height: 140px;
+    opacity: 1;
+}
+
+
+.support-box-list-box {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+.support-box-list {
+    color: white;
+    font-family: Gilroy;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 1;
+    width: 700px;
+}
+
+.support-box-list-item {
+    list-style: disc;
+    line-height: 1.5;
+}

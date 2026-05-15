@@ -229,13 +229,13 @@
     font-size: 60px;
     padding: 60px;
     color: #2F353F;
+    margin: 0px 0px 20px 30px;
 }
 
 #flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    gap: 20px 5px;
+    justify-content: center;
 }
 
 .box-{
@@ -262,26 +262,32 @@
 .text_box{
     font-family: 'Gilroy';
     font-size: 24px;
-    color: #2F353FB2 70%;
+    color: #2F353FB2 ;
 }
 
 .purple{
     font-family: 'Neue Machina';
-    border: 3px solid #2F353F;
-    width: 522px;
-    height: 300px;
+    border: 1px solid #909398;
+    width: 541px;
+    height: 220px;
     padding: 30px;
     font-size: 26px;
     border-radius: 40px;
-    background-color: #7876F2;
-    color: #ffff;
-    margin: 15px;
+    color: #2F353F;
 }
 
-.text_purple{
-    font-family: 'Gilroy';
-    font-size: 24px;
-    color: #ffff 70%;
+.box:hover{
+    background: #7876F2;
+    color: #ffff;
+    transition: 0.5s;
+    transform: scaleX(1.1);
+    transform: scaleY(1.3);
+    top: 50px;
+    left: 80px;
+}
+
+.box-box{
+    margin: 50px 40px 40px 50px;
 }
 
 .cicle{
@@ -292,4 +298,5 @@
     border-radius: 50%;
     font-size: 30px;
     text-align: center;
+    margin: 80px 0px 0px 80px;
 }

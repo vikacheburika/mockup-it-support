@@ -39,6 +39,27 @@
     left: 10px;
     height: 25px;
     width: 25px;
+
+}
+
+.social-ntx {
+    display: flex;
+    gap: 10px;
+}
+
+.soc {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1.125px solid var(--main-blue, #2E2BD0);
+    
+    
+
+}
+.img{
+    position: relative;
+    left: 7px;
+    top: 9px;
 }
 
 .nav-footer-center {

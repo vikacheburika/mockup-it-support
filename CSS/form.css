@@ -1,0 +1,77 @@
+.technologies_name{
+    width: 556px;
+    height: 58px;
+    margin-left: 150px;
+    margin-top: 0px;
+    font-family: 'Neue Machina';
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.technologies_text{
+    width: 634px;
+    height: 144px;
+    margin-left: 900px;
+    font-family: 'Gilroy';
+    color: rgba(47, 53, 63, 0.70);
+    font-size: 23px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1600px;
+  margin: 50px auto;
+}
+
+.line {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #cfcfcf;
+
+}
+
+.step {
+  position: relative;
+  z-index: 2;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5px;
+}
+
+.point {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: gray;
+  margin-bottom: 20px;
+}
+
+.active .point {
+  background: blue;
+  box-shadow: 0 0 0 6px rgba(0,0,255,0.2);
+}
+
+.text {
+  padding-left: 200px;
+  font-size: 20px;
+  font-family: 'Neue Machina';
+  width: 220px;
+  height: 68px;
+}
+.text1{
+  padding-left: 150px;
+  font-size: 16px;
+  font-family: 'Neue Machina';
+  width: 162px;
+  height: 46px;
+  color: rgba(47, 53, 63, 0.70);
+}

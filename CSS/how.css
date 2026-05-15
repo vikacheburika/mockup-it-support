@@ -216,6 +216,7 @@
     fill: var(--main-light, #9695E7);
     stroke-width: 2px;
     stroke: var(--main-white, #FFF);
+}
 .container{
     width: 1920px;
     height: 971px;

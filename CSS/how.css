@@ -1,0 +1,219 @@
+.after_header {
+    width: 1920px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.who_name {
+    width: 386px;
+    height: 58px;
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    margin-left: 150px;
+}
+
+.who_text {
+    width: 752px;
+    height: 455px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+
+.who_top_boxs {
+    margin-top: 108px;
+    margin-left: 100px;
+}
+
+.who_box1 {
+    width: 358px;
+    height: 236px;
+    border-radius: 40px;
+    border: 1px solid #909398;
+}
+
+.who_box1_number {
+    width: 73px;
+    height: 58px;
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.who_box1_text {
+    width: 176px;
+    height: 36px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 23px;
+    margin-left: 50px;
+    margin-top: 42px;
+}
+
+.who_box2 {
+    width: 358px;
+    height: 236px;
+    border-radius: 40px;
+    border: 1px solid #909398;
+}
+
+.who_box2_number {
+    width: 73px;
+    height: 58px;
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.who_box2_text {
+    width: 176px;
+    height: 36px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-top: 42px;
+}
+
+.who_bottom_boxs {
+    margin-top: 108px;
+}
+
+.who_box3 {
+    width: 358px;
+    height: 236px;
+    border-radius: 40px;
+    border: 1px solid #909398;
+}
+
+.who_box3_number {
+    width: 73px;
+    height: 58px;
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.who_box3_text {
+    width: 176px;
+    height: 36px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 42px;
+}
+
+.who_box4 {
+    width: 358px;
+    height: 236px;
+    border-radius: 40px;
+    border: 1px solid #909398;
+}
+
+.who_box4_number {
+    width: 173px;
+    height: 58px;
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.who_box4_text {
+    width: 258px;
+    height: 72px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 23px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.line_Circle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-bottom: 400px;
+}
+
+.circle {
+    position: absolute;
+
+}
+
+.dark1 {
+    margin-left: 150px;
+    left: 0px;
+}
+
+.grey1 {
+    margin-left: 150px;
+    left: 130px;
+}
+
+.blue1 {
+    margin-left: 150px;
+    left: 260px;
+}
+
+.dark2 {
+    margin-left: 150px;
+    left: 390px;
+}
+
+.grey2 {
+    margin-left: 150px;
+    left: 520px;
+}
+
+.blue2 {
+    margin-left: 150px;
+    left: 640px;
+}
+
+.dark3 {
+    margin-left: 150px;
+    left: 760px;
+}
+
+.grey3 {
+    margin-left: 150px;
+    left: 900px;
+}
+
+.blue3 {
+    margin-left: 150px;
+    left: 1030px;
+}
+
+.dark4 {
+    margin-left: 150px;
+    left: 1150px;
+}
+
+.grey4 {
+    margin-left: 150px;
+    left: 1260px;
+}
+
+.pink {
+    margin-left: 150px;
+    left: 1390px;
+    fill: var(--main-light, #9695E7);
+    stroke-width: 2px;
+    stroke: var(--main-white, #FFF);
+}

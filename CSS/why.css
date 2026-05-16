@@ -1,0 +1,128 @@
+.why {
+    height: 919px;
+    width: 1920px;
+    margin-top: 400px;
+    position: relative;
+}
+
+.why-header {
+    height: 58px;
+    width: 478px;
+    color: #2F353F;
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 150px;
+}
+
+.why-text {
+    height: 108px;
+    width: 726px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    position: absolute;
+    left: 150px;
+    top: 158px;
+}
+
+.side-bar {
+    width: 305px;
+    height: 502px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    left: 149px;
+    top: 416px;
+}
+
+.slider {
+    position: relative;
+    width: 5px;
+    height: 100%;
+}
+
+.inactive-line {
+    width: 3px;
+    height: 100%;
+    background: rgba(47, 53, 63, 0.14);
+    margin-left: 1px;
+    border: none;
+}
+
+.active-slider {
+    width: 5px;
+    height: 60px;
+    background: #2E2BD0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.slider-menu div {
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.active {
+    color: #2E2BD0;
+}
+
+.inactive {
+    color: rgba(47, 53, 63, 0.30);
+}
+
+.slider-text-block {
+    width: 1116px;
+    height: 459px;
+    position: absolute;
+    left: 654px;
+    top: 416px;
+    border-radius: 70px;
+    border: 1px solid rgba(47, 53, 63, 0.50);
+}
+
+.slider-block-header {
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 39px;
+    width: 331px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.slider-block-text {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    height: 270px;
+    width: 1016px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}

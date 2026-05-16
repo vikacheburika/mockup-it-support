@@ -8,6 +8,7 @@
 body {
     width: 1920px;
     height: 9097px;
+    margin: 0;
 }
 
 @font-face {
@@ -18,29 +19,30 @@ body {
 }
 
 @font-face {
-  font-family: 'TT Norms';
-  src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
-  font-weight: bold;
+    font-family: 'TT Norms';
+    src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
+    font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Neue Machina';
-  src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Neue Machina';
+    src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Neue Machina';
-  src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
+    font-family: 'Neue Machina';
+    src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../FONTS/Gilroy-Light.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Gilroy';
+    src: url('../FONTS/Gilroy-Light.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header-background {
@@ -227,7 +229,7 @@ body {
     height: 65px;
     width: 876px;
     position: absolute;
-    background-color:#2E2BD0;
+    background-color: #2E2BD0;
     border: none;
     left: 150px;
     top: 447px;
@@ -255,4 +257,3 @@ body {
     font-size: 30px;
     text-align: center;
 }
-

@@ -217,13 +217,14 @@
     stroke-width: 2px;
     stroke: var(--main-white, #FFF);
 }
-.container{
+
+.container {
     width: 1920px;
     height: 971px;
     margin-top: 250px;
 }
 
-.logo{
+.logo {
     font-family: 'Neue Machina';
     width: 436px;
     height: 58px;
@@ -239,7 +240,7 @@
     justify-content: center;
 }
 
-.box-{
+.box- {
     font-family: 'Neue Machina';
     border: 1px;
     width: 541px;
@@ -249,7 +250,7 @@
     color: #2F353F;
 }
 
-.box{
+.box {
     font-family: 'Neue Machina';
     border: 1px solid #909398;
     width: 541px;
@@ -260,13 +261,13 @@
     color: #2F353F;
 }
 
-.text_box{
+.text_box {
     font-family: 'Gilroy';
     font-size: 24px;
-    color: #2F353FB2 ;
+    color: #2F353FB2;
 }
 
-.purple{
+.purple {
     font-family: 'Neue Machina';
     border: 1px solid #909398;
     width: 541px;
@@ -277,7 +278,7 @@
     color: #2F353F;
 }
 
-.box:hover{
+.box:hover {
     background: #7876F2;
     color: #ffff;
     transition: 0.5s;
@@ -287,11 +288,11 @@
     left: 80px;
 }
 
-.box-box{
+.box-box {
     margin: 50px 40px 40px 50px;
 }
 
-.cicle{
+.cicle {
     font-family: 'Neue Machina';
     width: 280px;
     height: 280px;

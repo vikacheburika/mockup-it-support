@@ -1,86 +1,103 @@
-.industriesbox{
+.industriesbox {
     width: 1920px;
     height: 618px;
     margin-left: 150px;
     display: flex;
     align-items: center
 }
-.nameindus{
+
+.nameindus {
     height: 53px;
     width: 313px;
     margin-left: 150px;
     font-size: 50px;
     font-family: 'Neue Machina';
     font-weight: 100;
-} 
-.logistics{
+}
+
+.logistics {
     width: 506px;
     height: 460px;
     margin-right: 51px;
 }
-.logistics_foto{
+
+.logistics_foto {
     margin-bottom: 40px;
 }
-.logistics_name{
+
+.logistics_name {
     font-family: 'Neue Machina';
     font-weight: 100;
 }
-.logistics_hr{
+
+.logistics_hr {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.logistics_text{
+
+.logistics_text {
     width: 506px;
     height: 180px;
     font-size: 24px;
     font-family: 'Gilroy';
     color: rgba(47, 53, 63, 0.70);
 }
-.E-commerce{
+
+.E-commerce {
     width: 506px;
     height: 460px;
     margin-right: 51px;
 }
-.E-commerce_foto{
+
+.E-commerce_foto {
     margin-bottom: 40px;
 }
-.E-commerce_name{
+
+.E-commerce_name {
     font-family: 'Neue Machina';
     font-weight: 100;
 }
-.E-commerce_hr{
+
+.E-commerce_hr {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.E-commerce_text{
+
+.E-commerce_text {
     width: 506px;
     height: 180px;
     font-size: 24px;
     font-family: 'Gilroy';
     color: rgba(47, 53, 63, 0.70);
 }
-.crm_systems{
+
+.crm_systems {
     width: 506px;
     height: 460px;
 }
-.crm_systems_foto{
+
+.crm_systems_foto {
     margin-bottom: 40px;
 }
-.crm_systems_name{
-     font-family: 'Neue Machina';
+
+.crm_systems_name {
+    font-family: 'Neue Machina';
     font-weight: 100;
 }
-.crm_systems_hr{
+
+.crm_systems_hr {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.crm_systems_text{
+
+.crm_systems_text {
     width: 506px;
     height: 180px;
     font-size: 24px;
     font-family: 'Gilroy';
     color: rgba(47, 53, 63, 0.70);
 }
+
 .industries-full {
     margin-top: 250px;
 }

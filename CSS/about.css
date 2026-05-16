@@ -1,4 +1,3 @@
-
 body {
     width: 1920px;
     height: 9097px;
@@ -12,29 +11,30 @@ body {
 }
 
 @font-face {
-  font-family: 'TT Norms';
-  src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
-  font-weight: bold;
+    font-family: 'TT Norms';
+    src: url('../FONTS/TTNorms-Bold.otf') format('opentype');
+    font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Neue Machina';
-  src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Neue Machina';
+    src: url('../FONTS/NeueMachina-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Neue Machina';
-  src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
+    font-family: 'Neue Machina';
+    src: url('../FONTS/NeueMachina-Ultrabold.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../FONTS/Gilroy-Light.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Gilroy';
+    src: url('../FONTS/Gilroy-Light.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Main-menu {
@@ -60,7 +60,8 @@ body {
     gap: 10px;
     white-space: nowrap;
 }
-.about{
+
+.about {
     font-family: "Neue Machina";
     padding-left: 20px;
     padding-bottom: 10px;
@@ -70,14 +71,17 @@ body {
     border-radius: 10px;
     border: 1px solid var(--main-blue, #2E2BD0);
 }
-.job{
+
+.job {
     font-family: "Neue Machina";
     color: var(--main-light, #2F353F);
 }
-.services{
+
+.services {
     font-family: "Neue Machina";
     color: var(--main-light, #2F353F);
 }
+
 .line-1 {
     background-color: rgba(47, 53, 63, 0.50);
     border: none;
@@ -89,7 +93,7 @@ body {
 }
 
 .Language {
-    
+
     height: 23px;
     width: 62px;
     position: absolute;
@@ -183,4 +187,4 @@ body {
 
 .header-about {
     margin-bottom: 200px;
-} 
+}

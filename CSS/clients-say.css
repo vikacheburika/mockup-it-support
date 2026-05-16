@@ -114,10 +114,7 @@
 }
 
 .clietssay-nonbutton_img {
-    filter: brightness(0) saturate(100%)
-          invert(35%) sepia(90%)
-          saturate(2500%) hue-rotate(225deg)
-          brightness(95%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(90%) saturate(2500%) hue-rotate(225deg) brightness(95%) contrast(95%);
     width: 30px;
     margin-top: 5px;
 }
@@ -155,16 +152,14 @@
 .nav-arrow {
     height: 50px;
     width: 50px;
-    filter: brightness(0) saturate(100%)
-          invert(35%) sepia(90%)
-          saturate(2500%) hue-rotate(225deg)
-          brightness(95%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(90%) saturate(2500%) hue-rotate(225deg) brightness(95%) contrast(95%);
 }
 
 .nav-arrow-1 {
     opacity: 0.4;
     transform: rotate(90deg);
 }
+
 .nav-arrow-2 {
     transform: rotate(-90deg);
 }

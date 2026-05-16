@@ -52,11 +52,12 @@
     height: 60px;
     border-radius: 15px;
     border: 1.125px solid var(--main-blue, #2E2BD0);
-    
-    
+
+
 
 }
-.img{
+
+.img {
     position: relative;
     left: 7px;
     top: 9px;

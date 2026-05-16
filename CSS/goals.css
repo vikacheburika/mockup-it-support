@@ -114,9 +114,12 @@
     /* 45px */
     margin: 0;
 }
-.goal-semi-wide, .goal-wide {
+
+.goal-semi-wide,
+.goal-wide {
     padding: 50px 0 0 50px;
 }
+
 .goals h2 {
     margin-bottom: 100px;
 }

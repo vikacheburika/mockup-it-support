@@ -1,21 +1,23 @@
-.technologies_name{
-    width: 556px;
-    height: 58px;
-    margin-left: 150px;
-    margin-top: 0px;
-    font-family: 'Neue Machina';
-    font-weight: 100;
-    font-size: 50px;
+.technologies_name {
+  width: 556px;
+  height: 58px;
+  margin-left: 150px;
+  margin-top: 0px;
+  font-family: 'Neue Machina';
+  font-weight: 100;
+  font-size: 50px;
 }
 
-.technologies_text{
-    width: 634px;
-    height: 144px;
-    margin-left: 900px;
-    font-family: 'Gilroy';
-    color: rgba(47, 53, 63, 0.70);
-    font-size: 23px;
+.technologies_text {
+  width: 634px;
+  height: 144px;
+  margin-left: 900px;
+  font-family: 'Gilroy';
+  color: rgba(47, 53, 63, 0.70);
+  font-size: 23px;
 }
+
+
 
 .timeline {
   position: relative;
@@ -27,20 +29,20 @@
   margin: 50px auto;
 }
 
-.line {
+.line-tech {
   position: absolute;
   top: 7px;
   left: 0;
   width: 100%;
   height: 2px;
-  background: #cfcfcf;
+  background-color: #cfcfcf;
 
 }
 
 .step {
   position: relative;
   z-index: 2;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +59,7 @@
 
 .active .point {
   background: blue;
-  box-shadow: 0 0 0 6px rgba(0,0,255,0.2);
+  box-shadow: 0 0 0 6px rgba(0, 0, 255, 0.2);
 }
 
 .text {
@@ -67,7 +69,8 @@
   width: 220px;
   height: 68px;
 }
-.text1{
+
+.text1 {
   padding-left: 150px;
   font-size: 16px;
   font-family: 'Neue Machina';

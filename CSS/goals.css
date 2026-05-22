@@ -123,3 +123,24 @@
 .goals h2 {
     margin-bottom: 100px;
 }
+
+@media (max-width: 1080px) {
+    .goals {
+    box-sizing: border-box;
+    width: 1080px;
+    height: auto;
+    padding: 150px;
+    }
+
+    .goals h2 {
+        font-family: 'Neue Machina';
+        font-size: 60px;
+        font-weight: 100;
+        color: var(--default);
+    }
+
+    .goals-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+}

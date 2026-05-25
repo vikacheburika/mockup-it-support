@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -100,7 +101,8 @@ body {
     border: none;
     height: 119px;
     width: 1px;
-
+    position: relative;
+    top: -40px;
 }
 
 .Language {

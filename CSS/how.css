@@ -320,3 +320,388 @@
     text-align: center;
     margin: 80px 0px 0px 80px;
 }
+
+.mobile_line_Circle {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .for_Circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1080px;
+    height: 2000px;
+    width: 90%;
+    }
+
+    .after_header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .who_name {
+        width: 100%;
+        height: auto;
+        color: var(--main-light, #2F353F);
+        font-family: "Neue Machina";
+        font-size: 60px;
+        margin-left: 0;
+    }
+
+    .who_text {
+        width: 100%;
+        height: auto;
+        color: rgba(47, 53, 63, 0.70);
+        font-family: Gilroy;
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 50px;
+
+    }
+
+
+    .who_top_boxs {
+        margin-top: 108px;
+        margin-left: 0;
+    }
+
+    .who_box1 {
+        width: 100%;
+        height: 236px;
+        border-radius: 40px;
+        border: 1px solid #909398;
+    }
+
+    .who_box1_number {
+        width: 100%;
+        height: auto;
+        color: var(--main-blue, #2E2BD0);
+        font-family: "Neue Machina";
+        font-size: 60px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .who_box1_text {
+        width: 100%;
+        height: 36px;
+        color: rgba(47, 53, 63, 0.70);
+        font-family: Gilroy;
+        font-size: 23px;
+        margin-left: 50px;
+        margin-top: 42px;
+    }
+
+    .who_box2 {
+        width: 100%;
+        height: 236px;
+        border-radius: 40px;
+        border: 1px solid #909398;
+    }
+
+    .who_box2_number {
+        width: 100%;
+        height: auto;
+        color: var(--main-blue, #2E2BD0);
+        font-family: "Neue Machina";
+        font-size: 60px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .who_box2_text {
+        width: 100%;
+        height: 36px;
+        color: rgba(47, 53, 63, 0.70);
+        font-family: Gilroy;
+        font-size: 21px;
+        margin-left: 50px;
+        margin-top: 42px;
+    }
+
+    .who_bottom_boxs {
+        margin-top: 0;
+    }
+
+    .who_box3 {
+        width: 100%;
+        height: 236px;
+        border-radius: 40px;
+        border: 1px solid #909398;
+    }
+
+    .who_box3_number {
+        width: 100%;
+        height: auto;
+        color: var(--main-blue, #2E2BD0);
+        font-family: "Neue Machina";
+        font-size: 60px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .who_box3_text {
+        width: 100%;
+        height: 36px;
+        color: rgba(47, 53, 63, 0.70);
+        font-family: Gilroy;
+        font-size: 22px;
+        margin-left: 50px;
+        margin-top: 42px;
+    }
+
+    .who_box4 {
+        width: 100%;
+        height: 236px;
+        border-radius: 40px;
+        border: 1px solid #909398;
+    }
+
+    .who_box4_number {
+        width: 100%;
+        height: auto;
+        color: var(--main-blue, #2E2BD0);
+        font-family: "Neue Machina";
+        font-size: 60px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .who_box4_text {
+        width: 100%;
+        height: auto;
+        color: rgba(47, 53, 63, 0.70);
+        font-family: Gilroy;
+        font-size: 23px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .mobile_line_Circle {
+        display: flex;
+        position: relative;
+        width: 80%;
+        margin-bottom: 400px;
+        margin-top: 50px;
+        box-sizing: border-box;
+        height: 180px;
+        justify-content: center;
+    }
+
+    .mobile-circle {
+        width: 80px;
+        height: 80px;
+        position: relative;
+    }
+
+    .mobile-dark {
+        border-radius: 50%;
+        border: 2px solid var(--main-white, #FFF);
+        background: var(--main-light, #2F353F);
+        margin-left: 0;
+        left: 0;
+    }
+
+    .mobile-grey1 {
+        border-radius: 50%;
+        border: 2px solid var(--main-white, #FFF);
+        background: #C1C2C5;
+        margin-left: 60px;
+        top: -84px;
+    }
+
+    .mobile-blue {
+        border-radius: 50%;
+        border: 2px solid var(--main-white, #FFF);
+        background: var(--main-blue, #2E2BD0);
+        margin-left: 120px;
+        top: -168px;
+    }
+
+    .mobile-grey2 {
+        border-radius: 50%;
+        border: 2px solid var(--main-white, #FFF);
+        background: var(--main-light, #2F353F);
+        margin-left: 180px;
+        top: -252px;
+    }
+
+    .mobile-pink {
+        border-radius: 50%;
+        border: 2px solid var(--main-white, #FFF);
+        background: var(--main-light, #9695E7);
+        margin-left: 240px;
+        top: -336px;
+    }
+
+    .line_Circle {
+        display: none;
+    }
+
+    .circle {
+        position: relative;
+    }
+
+    .dark1 {
+        margin-left: 150px;
+        left: 0px;
+    }
+
+    .grey1 {
+        margin-left: 150px;
+        left: 130px;
+        top: -186px;
+    }
+
+    .blue1 {
+        margin-left: 150px;
+        left: 260px;
+        top: -372px;
+    }
+
+    .dark2 {
+        margin-left: 150px;
+        left: 390px;
+        top: -558px;
+    }
+
+    .grey2 {
+        margin-left: 150px;
+        left: 520px;
+        top: -744px;
+    }
+
+    .blue2 {
+        margin-left: 150px;
+        left: 640px;
+        top: -930px;
+    }
+
+    .dark3 {
+        margin-left: 150px;
+        left: 760px;
+        top: -1116px;
+    }
+
+    .grey3 {
+        margin-left: 150px;
+        left: 900px;
+        top: -1302px;
+    }
+
+    .blue3 {
+        margin-left: 150px;
+        left: 1030px;
+        top: -1488px;
+    }
+
+    .dark4 {
+        margin-left: 150px;
+        left: 1150px;
+        top: -1674px;
+    }
+
+    .grey4 {
+        margin-left: 150px;
+        left: 1260px;
+        top: -1860px;
+    }
+
+    .pink {
+        margin-left: 150px;
+        left: 1390px;
+        fill: var(--main-light, #9695E7);
+        stroke-width: 2px;
+        stroke: var(--main-white, #FFF);
+        top: -2046px;
+    }
+
+    .container {
+        width: 1920px;
+        height: 971px;
+        margin-top: 250px;
+    }
+
+    .logo {
+        font-family: 'Neue Machina';
+        width: 436px;
+        height: 58px;
+        font-size: 60px;
+        padding: 60px;
+        color: #2F353F;
+        margin: 0px 0px 20px 30px;
+    }
+
+    #flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box- {
+        font-family: 'Neue Machina';
+        border: 1px;
+        width: 541px;
+        height: 220px;
+        padding: 30px;
+        font-size: 26px;
+        color: #2F353F;
+    }
+
+    .box {
+        font-family: 'Neue Machina';
+        border: 1px solid #909398;
+        width: 541px;
+        height: 220px;
+        padding: 30px;
+        font-size: 26px;
+        border-radius: 40px;
+        color: #2F353F;
+    }
+
+    .text_box {
+        font-family: 'Gilroy';
+        font-size: 24px;
+        color: #2F353FB2;
+    }
+
+    .purple {
+        font-family: 'Neue Machina';
+        border: 1px solid #909398;
+        width: 541px;
+        height: 220px;
+        padding: 30px;
+        font-size: 26px;
+        border-radius: 40px;
+        color: #2F353F;
+    }
+
+    .box:hover {
+        background: #7876F2;
+        color: #ffff;
+        transition: 0.5s;
+        transform: scaleX(1.1);
+        transform: scaleY(1.3);
+        top: 50px;
+        left: 80px;
+    }
+
+    .box-box {
+        margin: 50px 40px 40px 50px;
+    }
+
+    .cicle {
+        font-family: 'Neue Machina';
+        width: 280px;
+        height: 280px;
+        background-color: #ffff;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+        margin: 80px 0px 0px 80px;
+    }
+}

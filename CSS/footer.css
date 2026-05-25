@@ -1,10 +1,16 @@
+.footer-for-real {
+    display: block;
+    margin-top: auto;
+    flex-shrink: 0;
+    width: 100%;
+}
 * {
     font-family: "TT Norms";
 }
 
 .nav-footer {
     font-family: "TT Norms";
-    height: 500px;
+    height: 46%;
     display: flex;
     align-content: center;
     border-top: 1px solid darkgray;
@@ -12,7 +18,8 @@
 }
 
 .nav-footer-left {
-    margin-left: 130px;
+    margin-left: 10%;
+    margin-bottom: 3%;
 }
 
 .nav-footer-left h1 {
@@ -65,7 +72,7 @@
 
 .nav-footer-center {
     font-family: 'Gilroy';
-    margin-left: 509px;
+    margin-left: 20%;
 }
 
 .heading-blue {
@@ -97,7 +104,7 @@
 }
 
 .nav-footer-right {
-    margin-left: 300px;
+    margin-left: 15%;
     position: relative;
     top: 15px;
 }
@@ -112,8 +119,10 @@
 }
 
 .end {
+ 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 35%;
     font-family: 'Gilroy';
 }
 

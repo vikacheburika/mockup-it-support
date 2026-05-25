@@ -4,7 +4,33 @@
     --main-blue: #2E2BD0;
 }
 
-
+.goals,
+.why,
+.after_header,
+.container,
+.industriesbox,
+.what-clients-say {
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+}
+.container,
+.what-clients-say,
+.support-box {
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+}
+ 
+.support-box {
+  margin-left: 0;
+}
+ 
+.Contact {
+  width: 254px;
+  right: 30px;
+}
+ 
 body {
     overflow-x: hidden;
     width: 100%;

@@ -1,4 +1,8 @@
-
+/* .Teambox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .Team-name {
     color: var(--main-light, #2F353F);
     font-family: 'Neue Machina';
@@ -18,12 +22,55 @@
 
 .foto {
     background-image: url('../IMG/Team.svg');
-    width: 1860px;
+    width: 95vw;
     height: 913px;
     background-repeat: no-repeat;
     margin-left: 30px;
     margin-top: 100px;
     margin-right: 30px;
+} */
+
+.Teambox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;                /* vertical spacing between title, text and image */
+    padding: 40px 20px;       /* keeps spacing on small screens */
+    box-sizing: border-box;
+}
+
+.Team-name {
+    color: var(--main-light, #2F353F);
+    font-family: 'Neue Machina';
+    font-size: 50px;
+    padding-left: 400px;           /* remove fixed left offset */
+    margin: 0;              
+    font-weight: 400;
+}
+
+.Team-start {
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 25px;
+    width: min(90%, 715px);   /* responsive width, keeps max width */
+    height: auto;             /* let content determine height */
+    margin: 0 auto;           /* center block */
+    margin-top: 10px;
+    line-height: 1.4;
+    text-align: left;         /* change to center if you want text centered */
+}
+
+.foto {
+    background-image: url('../IMG/Team.svg');
+    width: 100%;
+    max-width: 1200px;        /* caps the image width on large screens */
+    height: auto;
+    aspect-ratio: 16 / 6;     /* keeps a proportional height; adjust as needed */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .Team-1 {
@@ -66,6 +113,7 @@
 .Team-end-box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .line-vertical {

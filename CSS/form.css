@@ -77,8 +77,12 @@
   box-shadow: 0 0 0 6px rgba(0, 0, 255, 0.2);
 }
 
+.active .text1 {
+  color: blue;
+}
+
 .text {
-  padding-left: 200px;
+  margin-left: 200px;
   font-size: 20px;
   font-family: 'Neue Machina';
   width: 220px;
@@ -86,7 +90,7 @@
 }
 
 .text1 {
-  padding-left: 150px;
+  margin-left: 150px;
   font-size: 16px;
   font-family: 'Neue Machina';
   width: 162px;
@@ -159,13 +163,8 @@
     margin-bottom: 20px;
   }
 
-  .active .point {
-    background: blue;
-    box-shadow: 0 0 0 6px rgba(0, 0, 255, 0.2);
-  }
-
   .text {
-    padding-left: 300px;
+    margin-left: 300px;
     transform: translateY(-50px);
     font-size: 20px;
     font-family: 'Neue Machina';
@@ -174,7 +173,7 @@
   }
 
   .text1 {
-    padding-left: 250px;
+    margin-left: 250px;
     transform: translateY(-50px);
     font-size: 16px;
     font-family: 'Neue Machina';

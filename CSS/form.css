@@ -97,7 +97,7 @@
 @media (max-width: 1080px) {
 
   .technologies {
-    width: 1080px;
+    max-width: 1080px;
     text-align: left;
   }
 

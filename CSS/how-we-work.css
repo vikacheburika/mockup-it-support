@@ -89,48 +89,67 @@
 
 @media (max-width: 1080px) {
 
+    .how {
+        width: 90%;
+        max-width: 1080px;
+    }
+
     .container {
-        width: 1080px;
+        width: 100%;
+        max-width: 1080px;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .logo {
         font-family: 'Neue Machina';
-        width: 80%;
+        width: 100%;
         height: auto;
-        font-size: 60px;
+        font-size: 40px;
         color: #2F353F;
         margin: auto;
         text-align: left;
+        padding: 0;
     }
 
     #flexbox {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .box- {
         font-family: 'Neue Machina';
-        width: 90%;
+        max-width: 100%;
         height: 220px;
-        font-size: 26px;
+        font-size: 30px;
         color: #2F353F;
         text-align: left;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .box- > .box-box {
+        margin: 0;
     }
 
     .box {
         font-family: 'Neue Machina';
         border: 1px solid #909398;
-        width: 80%;
-        height: 220px;
-        padding: 30px;
-        font-size: 26px;
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        font-size: 20px;
         border-radius: 40px;
         color: #2F353F;
+    }
+
+    .box-box {
+        margin: 10px 8px 8px 10px;
     }
 
     .text_box {

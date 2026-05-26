@@ -136,3 +136,98 @@
     margin-left: 150px;
     margin-top: 30px;
 }
+@media (max-width: 1080px) {
+    .Team-name {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+
+    .Team-start {
+        font-size: 30px;
+        width: 72%;
+        margin-left: 50px;
+    }
+
+    .foto {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .Team-1 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    .Team-name-1 {
+        font-size: 40px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .Team-text-1 {
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .line-vertical {
+        display: none;
+    }
+
+    .line-vertical-1 {
+        display: none;
+    }
+
+    .Team-2 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    .Team-name-2 {
+        font-size: 40px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .Team-text-2 {
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .Team-3 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    .Team-name-3 {
+        font-size: 40px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .Team-text-3 {
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}

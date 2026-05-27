@@ -48,34 +48,34 @@ body {
 }
 
 .Main-menu {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: stretch;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10%;
-    box-sizing: border-box;
+    display: flex;   
 }
 
 .Menu {
     width: fit-content;
     height: fit-content;
+    position: absolute;
+    left: 58% ;
+    top: 50px;
     line-height: 1;
+    font-family: 'Neue Machina';
     font-size: 24px;
     display: flex;
     gap: 120px;
+    box-sizing: border-box;
 }
 
 .Menu a {
     text-decoration: none;
+    color: black;
     width: fit-content;
     height: fit-content;
     gap: 10px;
     white-space: nowrap;
+    box-sizing: border-box;
 }
 
-.about {
+.about{
     font-family: "Neue Machina";
     padding-left: 20px;
     padding-bottom: 10px;
@@ -101,18 +101,24 @@ body {
     border: none;
     height: 119px;
     width: 1px;
-    
+    position: absolute;
+    left: 82%;
+    top: 0px;
 }
 
 .Language {
 
     height: 23px;
     width: 62px;
+    position: absolute;
     display: flex;
+    left: 86%;
+    top: 48px;
+    gap: 8px;
 }
 
 .en {
-    font-family: "Neue Machina";
+
     width: 32px;
     height: 23px;
     display: flex;
@@ -120,7 +126,7 @@ body {
     justify-content: flex-start;
     line-height: 1;
     color: var(--main-light, #2F353F);
-
+    font-family: 'Neue Machina';
     font-size: 24px;
     transform: translateY(-3px);
 }
@@ -131,7 +137,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-image: url('../img/black-down.svg');
+    background-image: url('../IMG/arrow-square-down-black.svg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 20px 20px;
@@ -140,23 +146,24 @@ body {
 .Contact {
     height: 59px;
     width: 254px;
-    box-sizing: border-box;
+    position: absolute;
     background-color: #2E2BD0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 20px;
+    left: 91%;
+    top: 30px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .con {
-    font-family: "Neue Machina";
+    font-family: 'Neue Machina';
     height: 19px;
     width: 129px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
     line-height: 1;
     color: white;
-    font-family: 'Neue Machina';
+
     font-size: 20px;
     transform: translateY(-2px);
 }
@@ -167,7 +174,9 @@ body {
     background-image: url('../IMG/contact-button.svg');
     background-repeat: no-repeat;
     background-size: contain;
-
+    position: absolute;
+    left: 189px;
+    top: 17px;
 }
 
 .line-2 {

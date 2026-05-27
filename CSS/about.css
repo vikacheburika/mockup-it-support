@@ -67,7 +67,6 @@ body {
 
 .Menu a {
     text-decoration: none;
-    color: black;
     width: fit-content;
     height: fit-content;
     gap: 10px;
@@ -76,6 +75,7 @@ body {
 }
 
 .about{
+    font-size: 20px;
     font-family: "Neue Machina";
     padding-left: 20px;
     padding-bottom: 10px;
@@ -88,11 +88,15 @@ body {
 
 .job {
     font-family: "Neue Machina";
+    font-size: 20px;
     color: var(--main-light, #2F353F);
+     margin-top: 2%;
 }
 
 .services {
     font-family: "Neue Machina";
+    font-size: 20px;
+    margin-top: 2%;
     color: var(--main-light, #2F353F);
 }
 
@@ -112,8 +116,8 @@ body {
     width: 62px;
     position: absolute;
     display: flex;
-    left: 86%;
-    top: 48px;
+    left: 2600px;
+    top: 54px;
     gap: 8px;
 }
 

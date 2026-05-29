@@ -173,6 +173,8 @@
     .what-clients-say-boxes {
         display: flex;
         overflow-x: auto;
+        padding-left: 17%;
+        padding-right: 16%;
     }
     .clientssay-box {
         min-width: 320px;
@@ -194,7 +196,7 @@
     .media-say-client {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
     }
     .clientssay-name{
         margin-top: 8%;
@@ -203,8 +205,11 @@
         margin: 0;
     }
     .clientssay-description {
-        margin-bottom: 15%;
+        margin-bottom: 0%;
         margin-top: 6%;
+    }
+    .say-view-button{
+        margin-top: 25%;
     }
     
 

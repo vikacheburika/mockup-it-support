@@ -1,5 +1,5 @@
 .industriesbox {
-    width: 1920px;
+    /* width: 1920px; */
     height: 618px;
     margin-left: 150px;
     display: flex;
@@ -100,4 +100,9 @@
 
 .industries-full {
     margin-top: 250px;
+}
+
+@media (max-width: 1080px) {
+    .industries-full { display: none;
+    }
 }

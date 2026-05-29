@@ -17,7 +17,22 @@
   font-size: 23px;
 }
 
+.js-box {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  border: 3px solid var(--main-blue, #2E2BD0);
+  text-align: center;
+  vertical-align: center;
+  margin-top: 50px;
+}
 
+.js-img {
+  width: 90px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
 
 .timeline {
   position: relative;
@@ -76,7 +91,7 @@
   font-size: 22px;
 }
 .text {
-  padding-left: 200px;
+  margin-left: 200px;
   font-size: 20px;
   font-family: 'Neue Machina';
   width: 220px;
@@ -85,7 +100,7 @@
 }
 
 .text1 {
-  padding-left: 150px;
+  margin-left: 150px;
   font-size: 16px;
   font-family: 'Neue Machina';
   width: 162px;
@@ -106,4 +121,88 @@
     cursor: pointer;
     width: 15px;
   
+
+@media (max-width: 1080px) {
+
+  .technologies {
+    max-width: 1080px;
+    text-align: left;
+  }
+
+  .technologies_name {
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 0px;
+    font-family: 'Neue Machina';
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .technologies_text {
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+    font-family: 'Gilroy';
+    color: rgba(47, 53, 63, 0.70);
+    font-size: 23px;
+  }
+
+
+
+  .timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1080px;
+  }
+
+  .line-tech {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    height: 718px;
+    width: 2px;
+    background-color: #cfcfcf;
+  }
+
+  .step {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5px;
+  }
+
+  .point {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: gray;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin-left: 300px;
+    transform: translateY(-50px);
+    font-size: 20px;
+    font-family: 'Neue Machina';
+    width: 220px;
+    height: auto;
+  }
+
+  .text1 {
+    margin-left: 250px;
+    transform: translateY(-50px);
+    font-size: 16px;
+    font-family: 'Neue Machina';
+    width: 162px;
+    height: auto;
+    color: rgba(47, 53, 63, 0.70);
+  }
 }

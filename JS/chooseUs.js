@@ -10,6 +10,8 @@ for (let i = 0; i < btns.length; i++) {
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
   ttl.innerHTML = "Close-knit "+words[i]
+ 
   slider.getElementsByClassName("active-slider")[0].style.top = (i * 30)+"%";
+  
   });
 }

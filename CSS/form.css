@@ -139,8 +139,8 @@
   .line-tech {
     position: absolute;
     top: 7px;
-    left: 0;
-    height: 87%;
+    left: 2px;
+    height: 718px;
     width: 2px;
     background-color: #cfcfcf;
   }

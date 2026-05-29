@@ -124,3 +124,10 @@
     list-style: disc;
     line-height: 1.5;
 }
+.stick-button {
+    width: 3px;
+    height: 150px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

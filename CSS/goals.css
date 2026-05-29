@@ -1,8 +1,9 @@
 .goals {
     box-sizing: border-box;
-    width: 1920px;
+    max-width: 1920px;
+    width: 90%;
     height: 1656px;
-    padding: 150px;
+    margin-top: 150px;
 }
 
 .goals h2 {

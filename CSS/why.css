@@ -1,6 +1,7 @@
 .why {
     height: 919px;
-    width: 1920px;
+    max-width: 1920px;
+    width: 90%;
     margin-top: 400px;
     position: relative;
 }

@@ -163,3 +163,22 @@
 .nav-arrow-2 {
     transform: rotate(-90deg);
 }
+
+@media (max-width: 1080px){
+    .what-clients-say-name{
+        width: 50%;
+        margin: 0 22% 100px;
+    }
+    .what-clients-say-boxes {
+        display: flex;
+        overflow-x: auto;
+    }
+    .clientssay-box {
+        min-width: 320px;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .what-clients-say-nav{
+        display: none;
+    }
+}

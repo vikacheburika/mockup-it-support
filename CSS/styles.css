@@ -95,7 +95,7 @@ body {
 }
 
 .Main-menu {
-    display: flex;
+    display: flex;   
 }
 
 .Menu {
@@ -179,6 +179,7 @@ body {
 }
 
 .con {
+    font-family: 'Neue Machina';
     height: 19px;
     width: 129px;
     position: absolute;
@@ -186,7 +187,6 @@ body {
     top: 20px;
     line-height: 1;
     color: white;
-    font-family: 'Neue Machina';
     font-size: 20px;
     transform: translateY(-2px);
 }

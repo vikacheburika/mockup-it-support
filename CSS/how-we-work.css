@@ -85,6 +85,8 @@
 
 .how {
     margin-bottom: 350px;
+    box-sizing: border-box;
+    width: 1920px;
 }
 
 @media (max-width: 1080px) {

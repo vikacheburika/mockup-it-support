@@ -145,6 +145,9 @@ body {
 }
 
 .Language {
+    height: 123px;
+    width: 162px;
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -156,7 +159,8 @@ body {
     color: white;
     font-family: 'Neue Machina';
     font-size: 24px;
-    line-height: 1;
+    transform: translateY(-3px);
+    
 }
 
 .language-arrow-down {
@@ -300,6 +304,40 @@ body {
 header {
     width: 100%;
 }
+.lang-btn{
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    background:none;
+    border: none;
+}
+.languages{
+    position: relative;
+    top: 25px;
+    right: 50px;
+    border: 1px solid #95989D;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+.eng button{
+    background:none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
+
+}
+.ltg button{
+    background:none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
 
 .mobile-menu {
     display: none;

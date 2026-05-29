@@ -27,11 +27,22 @@ btn2013.addEventListener("click", function() {
     text2020.style.fontSize = "60px";
     text2022.style.color = "lighrgray";
     text2022.style.fontSize = "60px";
-    num2013.style.color = "white";
-    num2015.style.color = "lightgray";
-    num2018.style.color = "lightgray";
-    num2020.style.color = "lightgray";
-    num2022.style.color = "lightgray";
+    num2013.style.backgroundColor = "white";
+    num2015.style.backgroundColor = "lightgray";
+    num2018.style.backgroundColor = "lightgray";
+    num2020.style.backgroundColor = "lightgray";
+    num2022.style.backgroundColor = "lightgray";
+    num2013.style.width = "3px";
+    num2013.style.height = "150px";
+    num2015.style.width = "2px";
+    num2015.style.height = "140px";
+    num2018.style.width = "2px";
+    num2018.style.height = "140px";
+    num2020.style.width = "2px";
+    num2020.style.height = "140px";
+    num2022.style.width = "2px";
+    num2022.style.height = "140px";
+
   
 });
 btn2015.addEventListener("click", function() {
@@ -45,12 +56,21 @@ btn2015.addEventListener("click", function() {
     text2020.style.fontSize = "60px";
     text2022.style.color = "lightgray";
     text2022.style.fontSize = "60px";
-    num2013.style.color = "lightgray";
-    num2015.style.color = "white";
-    num2018.style.color = "lightgray";
-    num2020.style.color = "lightgray";
-    num2022.style.color = "lightgray";
-
+    num2013.style.backgroundColor = "lightgray";
+    num2015.style.backgroundColor = "white";
+    num2018.style.backgroundColor = "lightgray";
+    num2020.style.backgroundColor = "lightgray";
+    num2022.style.backgroundColor = "lightgray";
+num2013.style.width = "2px";
+num2013.style.height = "140px";
+num2015.style.width = "3px";
+num2015.style.height = "150px";
+num2018.style.width = "2px";
+num2018.style.height = "140px";
+num2020.style.width = "2px";
+num2020.style.height = "140px";
+num2022.style.width = "2px";
+num2022.style.height = "140px";
    
 });
 btn2018.addEventListener("click", function() {
@@ -64,11 +84,21 @@ btn2018.addEventListener("click", function() {
     text2020.style.fontSize = "60px";
     text2022.style.color = "lightgray";
     text2022.style.fontSize = "60px";   
-    num2013.style.color = "lightgray";
-    num2015.style.color = "lightgray";
-    num2018.style.color = "white";
-    num2020.style.color = "lightgray";
-    num2022.style.color = "lightgray";
+    num2013.style.backgroundColor = "lightgray";
+    num2015.style.backgroundColor = "lightgray";
+    num2018.style.backgroundColor = "white";
+    num2020.style.backgroundColor = "lightgray";
+    num2022.style.backgroundColor = "lightgray";
+num2013.style.width = "2px";
+num2013.style.height = "140px";
+num2015.style.width = "2px";
+num2015.style.height = "140px";
+num2018.style.width = "3px";
+num2018.style.height = "150px";
+num2020.style.width = "2px";
+num2020.style.height = "140px";
+num2022.style.width = "2px";
+num2022.style.height = "140px";
 
 });
 btn2020.addEventListener("click", function() {
@@ -82,11 +112,21 @@ btn2020.addEventListener("click", function() {
     text2020.style.fontSize = "76px";
     text2022.style.color = "lightgray";
     text2022.style.fontSize = "60px";
-    num2013.style.color = "lightgray";
-    num2015.style.color = "lightgray";
-    num2018.style.color = "lightgray";
-    num2020.style.color = "white";
-    num2022.style.color = "lightgray";
+    num2013.style.backgroundColor = "lightgray";
+    num2015.style.backgroundColor = "lightgray";
+    num2018.style.backgroundColor = "lightgray";
+    num2020.style.backgroundColor = "white";
+    num2022.style.backgroundColor = "lightgray";
+num2013.style.width = "2px";
+num2013.style.height = "140px";
+num2015.style.width = "2px";
+num2015.style.height = "140px";
+num2018.style.width = "2px";
+num2018.style.height = "140px";
+num2020.style.width = "3px";
+num2020.style.height = "150px";
+num2022.style.width = "2px";
+num2022.style.height = "140px";
   
 });
 btn2022.addEventListener("click", function() {
@@ -100,12 +140,21 @@ btn2022.addEventListener("click", function() {
     text2020.style.fontSize = "60px";
     text2022.style.color = "white";
     text2022.style.fontSize = "76px";
-    num2013.style.color = "lightgray";  
-    num2015.style.color = "lightgray";
-    num2018.style.color = "lightgray";
-    num2020.style.color = "lightgray";
-    num2022.style.color = "white";
-    
+    num2013.style.backgroundColor = "lightgray";  
+    num2015.style.backgroundColor = "lightgray";
+    num2018.style.backgroundColor = "lightgray";
+    num2020.style.backgroundColor = "lightgray";
+    num2022.style.backgroundColor = "white";
+num2013.style.width = "2px";
+num2013.style.height = "140px";
+num2015.style.width = "2px";
+num2015.style.height = "140px";
+num2018.style.width = "2px";
+num2018.style.height = "140px";
+num2020.style.width = "2px";
+num2020.style.height = "140px";
+num2022.style.width = "3px";
+num2022.style.height = "150px";
   
 });
 

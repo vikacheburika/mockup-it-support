@@ -57,6 +57,7 @@
 .step {
   position: relative;
   z-index: 2;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,33 +71,22 @@
   background: gray;
   margin-bottom: 20px;
 }
-.step:hover .point {
-  background: blue;
-  box-shadow: 0 0 0 6px rgba(0, 0, 255, 0.2);
-  transition: all 0.5s ease;
 
-}
-.step:hover .text{
-  color: var(--main-blue, #2E2BD0);
-  font-size: 22px;
-  transition: all 0.5s ease;
-}
-.act .point {
+.active .point {
   background: blue;
   box-shadow: 0 0 0 6px rgba(0, 0, 255, 0.2);
 }
 
-.act .text{
-  color: var(--main-blue, #2E2BD0);
-  font-size: 22px;
+.active .text1 {
+  color: blue;
 }
+
 .text {
   margin-left: 200px;
   font-size: 20px;
   font-family: 'Neue Machina';
   width: 220px;
   height: 68px;
- color: rgba(47, 53, 63, 0.70);
 }
 
 .text1 {
@@ -107,20 +97,6 @@
   height: 46px;
   color: rgba(47, 53, 63, 0.70);
 }
-.tech-foto {
-  width: 70px;
-  height: 70px;
-  margin-top: 20px;
-}
-.step-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background: none;
-    border: none; */
-    cursor: pointer;
-    width: 15px;
-  
 
 @media (max-width: 1080px) {
 

@@ -81,7 +81,9 @@
     line-height: 150%;
 }
 
-
+.active {
+    color: #2E2BD0;
+}
 
 .inactive {
     color: rgba(47, 53, 63, 0.30);
@@ -123,14 +125,6 @@
     left: 50px;
     top: 100px;
 }
-.word{
-    border: none;
-    background: none;
-    font-size: 32px;
-     color: rgba(47, 53, 63, 0.70);
-}
-.active,.word:active{
-    color: #2E2BD0;
 
 @media (max-width: 1080px) {
     .why {

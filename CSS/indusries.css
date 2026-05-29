@@ -101,3 +101,8 @@
 .industries-full {
     margin-top: 250px;
 }
+
+@media (max-width: 1080px) {
+    .industries-full { display: none;
+    }
+}

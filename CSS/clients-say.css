@@ -176,9 +176,31 @@
     .clientssay-box {
         min-width: 320px;
         flex: 0 0 auto;
-        width: 50%;
+        width: 43%;
+        height: 600px;
     }
     .what-clients-say-nav{
         display: none;
     }
+    .client-pic {
+        margin-top: 0;
+    }
+    .say-foto-name{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .clientssay-name{
+        margin-top: 8%;
+    }
+    .clientssay-desc {
+        margin: 0;
+    }
+    .clientssay-description{
+        margin-top: 10%;
+    }
+    .clietssay-nonbutton {
+        margin-top: 20%;
+    }
+
 }

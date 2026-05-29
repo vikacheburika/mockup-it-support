@@ -213,7 +213,9 @@
     }
 
     .Team-end-box {
-        display: block;
+        display:flex;
+        flex-direction: column;
+        margin-left: 5%;
     }
 
     .Team-1 {

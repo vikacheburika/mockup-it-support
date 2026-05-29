@@ -93,6 +93,7 @@
     font-weight: 400;
     line-height: 150%;
     margin: 0;
+    margin-bottom: 20%;
 }
 
 .clietssay-nonbutton {
@@ -172,13 +173,44 @@
     .what-clients-say-boxes {
         display: flex;
         overflow-x: auto;
+        padding-left: 17%;
+        padding-right: 16%;
     }
     .clientssay-box {
         min-width: 320px;
         flex: 0 0 auto;
-        width: 50%;
+        width: 43%;
+        height: 600px;
     }
     .what-clients-say-nav{
         display: none;
     }
+    .client-pic {
+        margin-top: 0;
+    }
+    .say-foto-name{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .media-say-client {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .clientssay-name{
+        margin-top: 8%;
+    }
+    .clientssay-desc {
+        margin: 0;
+    }
+    .clientssay-description {
+        margin-bottom: 0%;
+        margin-top: 6%;
+    }
+    .say-view-button{
+        margin-top: 25%;
+    }
+    
+
 }

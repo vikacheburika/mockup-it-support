@@ -1,11 +1,9 @@
 .it-support-group {
     box-sizing: border-box;
-    width: 100%;
+    width: 1920px;
     height: 1656px;
     padding: 150px;
-    margin: 150px auto 0;
-    max-width: 1920px;
-    overflow-y: hidden;
+    margin-top: 150px;
 }
 
 .support-start-1 h2 {
@@ -24,7 +22,7 @@
     font-weight: 400;
     line-height: 150%;
     margin: 0;
-    margin-left: 40%;
+    margin-left: 743px;
     width: 760px;
 }
 
@@ -32,17 +30,16 @@
     border: 0px solid var(--main-blue);
     box-sizing: border-box;
     height: 750px;
-    margin: 0;
-    width: 100%;
+    width: 1860px;
     border-radius: 50px;
     margin-top: 100px;
-    max-width: 1860px;
+    margin-left: -120px;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.33fr 0.3fr 0.6fr;
     place-items: center;
     justify-content: center;
-    overflow: hidden;
     background: linear-gradient(to right, var(--main-blue), var(--violet-blue));
 }
 

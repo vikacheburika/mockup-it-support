@@ -4,42 +4,14 @@
     --main-blue: #2E2BD0;
 }
 
-.goals,
-.why,
-.after_header,
-.container,
-.industriesbox,
-.what-clients-say {
-  width: 100%;
-  max-width: 1920px;
-  box-sizing: border-box;
-}
-.container,
-.what-clients-say,
-.support-box {
-  width: 100%;
-  max-width: 1920px;
-  box-sizing: border-box;
-}
- 
-.support-box {
-  margin-left: 0;
-}
- 
-.Contact {
-  width: 254px;
-  right: 30px;
-}
- 
+
 body {
-    overflow-x: hidden;
     width: 100%;
-    min-height: 100vh;
+    height: 9097px;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -79,144 +51,138 @@ body {
 .header-background {
     height: 975px;
     background-image: url('../IMG/header-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 550px;
-    box-sizing: border-box;
+    
 }
 
 .header-background-dim {
     height: 975px;
     background-image: url('../IMG/header-background-dim.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 550px;
-    box-sizing: border-box;
 }
 
 .Main-menu {
-    width: 100%;
-    height: 120px;
-
     display: flex;
-    align-items: center;
-
-    position: relative;
-    padding: 0 30px;
-    box-sizing: border-box;
-}
-
-.Logo {
-    width: 204px;
-    height: 63px;
-
-    position: relative;
-    flex-shrink: 0;
 }
 
 .Menu {
-    flex: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 120px;
-
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 707px;
+    top: 50px;
+    line-height: 1;
     font-family: 'Neue Machina';
     font-size: 24px;
-
-    margin: 0 40px;
+    display: flex;
+    gap: 120px;
 }
 
 .Menu a {
     text-decoration: none;
     color: white;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
     white-space: nowrap;
 }
 
 .line-1 {
-    width: 1px;
-    height: 104px;
-
-    background-color: rgba(255,255,255,0.7);
+    background-color: white;
     border: none;
-
-    margin-right: 30px;
+    height: 119px;
+    width: 1px;
+    position: absolute;
+    left: 1399px;
+    top: 0px;
 }
 
 .Language {
+    height: 123px;
+    width: 162px;
+    position: absolute;
     display: flex;
-    align-items: center;
+    left: 1479px;
+    top: 48px;
     gap: 8px;
-
-    margin-right: 35px;
 }
 
 .en {
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 1;
     color: white;
     font-family: 'Neue Machina';
     font-size: 24px;
-    line-height: 1;
+    transform: translateY(-3px);
+    
 }
 
 .language-arrow-down {
-    width: 20px;
-    height: 20px;
-
+    width: 32px;
+    height: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     background-image: url('../IMG/arrow-square-down.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: top center;
+    background-size: 20px 20px;
+    
 }
 
 .Contact {
-    width: 254px;
     height: 59px;
-
+    width: 254px;
+    position: absolute;
     background-color: #2E2BD0;
+    left: 1636px;
+    top: 30px;
     border-radius: 10px;
-
-    position: relative;
-    flex-shrink: 0;
-
     cursor: pointer;
 }
 
 .con {
-    font-family: 'Neue Machina';
     height: 19px;
     width: 129px;
     position: absolute;
     left: 40px;
-    top: 18px;
-
+    top: 20px;
+    line-height: 1;
     color: white;
+    font-family: 'Neue Machina';
     font-size: 20px;
+    transform: translateY(-2px);
 }
 
 .contact-button {
-    width: 24px;
     height: 24px;
-
-    position: absolute;
-    right: 35px;
-    top: 17px;
-
+    width: 24px;
     background-image: url('../IMG/contact-button.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    position: absolute;
+    left: 189px;
+    top: 17px;
 }
 
 .line-2 {
-    position: absolute;
-    bottom: 0;
-    left: 30px;
-
-    width: calc(100% - 60px);
-    height: 1px;
-
-    background-color: rgba(255,255,255,0.7);
+    background-color: white;
     border: none;
+    height: 1px;
+    width: 1860px;
+    position: absolute;
+    left: 30px;
+    top: 119px;
+}
+
+.Logo {
+    height: 63px;
+    width: 204px;
+    position: relative;
+    left: 30px;
+    top: 28px;
 }
 
 .Logo-vector-2 {
@@ -300,158 +266,38 @@ body {
 header {
     width: 100%;
 }
-
-.mobile-menu {
-    display: none;
+.lang-btn{
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    background:none;
+    border: none;
 }
-
-.mobile-contact {
-    display: none;
+.languages{
+    position: relative;
+    top: 25px;
+    right: 50px;
+    border: 1px solid #95989D;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
 }
+.eng button{
+    background:none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
 
-.mobile-title-background {
-    display: none;
 }
-
-@media (max-width: 1080px) {
-    .header-background {
-        height: 1000px;
-        background-image: url('../IMG/header-background.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 550px;
-        box-sizing: border-box;
-    }
-
-    .header-background-dim {
-        height: 1000px;
-        background-image: url('../IMG/header-background-dim.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 550px;
-        box-sizing: border-box;
-    }
-
-    .Main-menu {
-        width: 100%;
-        height: 120px;
-        display: flex;
-        align-items: center;
-        position: relative;
-        padding: 0 30px;
-        box-sizing: border-box;
-    }
-
-    .Menu {
-        display: none;
-    }
-
-    .line-1 {
-        display: none;
-    }
-
-    .line-2 {
-        display: none;
-    }
-
-    .Language {
-        display: none;
-    }
-
-    .Contact {
-        display: none;
-    }
-
-    .Logo {
-        width: 204px;
-        height: 63px;
-        position: relative;
-        flex-shrink: 0;
-        margin: auto;
-    }
-
-    .mobile-menu {
-        display: inline-block;
-        width: 64px;
-        height: 64px;
-        border-radius: 16px;
-        background: var(--main-white, #FFF);
-    }
-    
-    .mobile-contact {
-        display: inline-block;
-        width: 64px;
-        height: 64px;
-        border-radius: 16px;
-        background: var(--main-white, #FFF);
-    }
-
-    .mobile-menu > svg {
-        margin: 8px 0px 0px 8px;
-    }
-
-    .mobile-contact > svg {
-        margin: 8px 0px 0px 8px;
-    }
-
-    .Title {
-        height: 300px;
-        width: 90%;
-        position: absolute;
-        left: 5%;
-        top: 250px;
-    }
-
-    .title-header {
-        line-height: 130%;
-        color: white;
-        font-family: 'Neue Machina';
-        font-size: 50px;
-        font-weight: 900;
-        text-align: left;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .title-background {
-        display: none;
-    }
-
-    .mobile-title-background {
-        display: inline-block;
-        height: 75%;
-        width: 100%;
-        position: absolute;
-        background-color: #2E2BD0;
-        border: none;
-        left: 0;
-        top: 5%;
-        z-index: -1;
-    }
-
-    .Estimate {
-        height: 140px;
-        width: 140px;
-        position: relative;
-        margin: auto;
-        left: 0;
-        top: 500px;
-        border: none;
-        border-radius: 50%;
-        background-color: #2E2BD0;
-        cursor: pointer;
-    }
-
-    .Est {
-        height: 78px;
-        width: 140px;
-        position: absolute;
-        left: 0;
-        top: 30%;
-        line-height: 130%;
-        color: white;
-        font-family: 'Neue Machina';
-        font-size: 20px;
-        text-align: center;
-    }
+.ltg button{
+    background:none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
 }

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="CSS/how-we-work.css">
     <link rel="stylesheet" href="CSS/why.css">
     <link rel="stylesheet" href="CSS/styles.css">
+
+  
 </head>
 
 <body>
@@ -128,36 +130,36 @@
 
     <!-- Why choose us? -->
 
-    <div class="why">
-        <div class="why-header">Why choose us?</div>
+        <div class="why">
+        <div class="why-header" > Why choose us?</div>
         <div class="why-text">Fill the gaps in your competencies by setting up a remote IT team. We will find the best
             experts for you and arrange everything around it. You will get a perfect match both in skills and cultural
             fit.</div>
-        <div class="why-section">
-            <div class="side-bar">
-                <div class="slider">
-                    <div class="inactive-line"></div>
-                    <div class="active-slider"></div>
-                </div>
-
-                <div class="slider-menu">
-                    <div class="active">Team</div>
-                    <div class="inactive">Communication</div>
-                    <div class="inactive">Solution</div>
-                    <div class="inactive">Quality</div>
-                </div>
+        <div class="side-bar">
+            <div class="slider" id="slider">
+                <div class="inactive-line"></div>
+                <div class="active-slider"></div>
             </div>
 
-            <div class="slider-text-block">
-                <div class="slider-block-header">Close-knit team</div>
-                <div class="slider-block-text">A small text describing one of the goals in two lines. A small text
-                    describing one of the goals in two lines. A small text describing one of the goals in two lines. A small
-                    text describing one of the goals in two lines. A small text describing one of the goals in two lines. A
-                    small text describing one of the goals in two lines. A small text describing one of the goals in two
-                    lines. A small text describing one of the goals in two lines.</div>
+            <div class="slider-menu" id="why-menu">
+                <div class="word active">Team</div>
+                <div class="word">Communication</div>
+                <div class="word">Solution</div>
+                <div class="word">Quality</div>
             </div>
         </div>
+
+        <div class="slider-text-block">
+            <div class="slider-block-header" id="title">Close-knit team</div>
+            <div class="slider-block-text">A small text describing one of the goals in two lines. A small text
+                describing one of the goals in two lines. A small text describing one of the goals in two lines. A small
+                text describing one of the goals in two lines. A small text describing one of the goals in two lines. A
+                small text describing one of the goals in two lines. A small text describing one of the goals in two
+                lines. A small text describing one of the goals in two lines.</div>
+        </div>
     </div>
+
+    <!-- how we work-->
 
     <div class="how">
         <div class="container">
@@ -208,61 +210,73 @@
         </div>
     </div>
 
+    <!-- used technologies -->
 
-    <div class="technologies">
+
+    <div>
         <h1 class="technologies_name">Used technologies</h1>
         <div class="technologies_text">Fill the gaps in your competencies by setting up a remote IT team. We will find
             the best experts for you and arrange everything around it. You will get a perfect match both in skills and
             cultural fit.</div>
 
-        <div class="timeline">
+        <div class="timeline" id="timeline">
             <div class="line-tech"></div>
 
-            <div class="step active">
-                <div class="point"></div>
-                <div class="text">Title of the first technology
-                    <div class="js-box">
-                        <div class="js-img"><img src="IMG/java-script.svg" alt="javascript"></div>
-                    </div>
+            <div class="step act">
+                
+                    <div class="point"></div>
+                <div class="text">Title of the first technology</div>
+            
+                <img src="IMG/Icon_1.svg" alt="js" class="tech-foto">
+                
+            </div>
+
+            <div class="step">
+                  
+                    <div class="point"></div>
+                <div class="text">Title of the first technology</div>
+            
+                
+    
+            </div>
+
+            <div class="step">
+                    <div class="point"></div>
+                    <div class="text">Third technology description</div>
+            </div>
+
+            <div class="step">
+          
+                    <div class="point"></div>
+                <div class="text">Forth technology description</div>
+            </div>
+
+            <div class="step">
+                    <div class="point">
                 </div>
+                <div class="text">Fifth technology description</div>
             </div>
 
             <div class="step">
-                <div class="point"></div>
-                <div class="text1">Second technology description</div>
+                
+                    <div class="point"></div>
+                <div class="text">sixth technology description</div>
             </div>
 
             <div class="step">
-                <div class="point"></div>
-                <div class="text1">Third technology description</div>
+               
+                    <div class="point"></div>
+                <div class="text">seventh technology description</div>
             </div>
 
             <div class="step">
-                <div class="point"></div>
-                <div class="text1">Forth technology description</div>
-            </div>
-
-            <div class="step">
-                <div class="point"></div>
-                <div class="text1">Fifth technology description</div>
-            </div>
-
-            <div class="step">
-                <div class="point"></div>
-                <div class="text1">sixth technology description</div>
-            </div>
-
-            <div class="step">
-                <div class="point"></div>
-                <div class="text1">seventh technology description</div>
-            </div>
-
-            <div class="step">
-                <div class="point"></div>
-                <div class="text1">eighth technology description</div>
+                    <div class="point"></div>
+                <div class="text">eighth technology description</div>
             </div>
         </div>
     </div>
+
+    <!-- industries -->
 
     <div class="industries-full">
         <h1 class="nameindus">Industries</h1>
@@ -446,5 +460,7 @@
     </div>
 
 </body>
+  <script src="JS/chooseUs.js"></script>
+<script src="JS/usedTechnologies.js"></script>
 
 </html>
